@@ -1,0 +1,38 @@
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\bin\Debug\MyWallet.exe.config
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\bin\Debug\MyWallet.exe
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\bin\Debug\MyWallet.pdb
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MainWindow.g.cs
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\PayWindow.g.cs
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\App.g.cs
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet_MarkupCompile.cache
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet_MarkupCompile.lref
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MainWindow.baml
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\PayWindow.baml
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet.g.resources
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet.Properties.Resources.resources
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet.csproj.GenerateResource.Cache
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet.exe
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet.pdb
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\MyWallet.csprojResolveAssemblyReference.cache
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\GetWindow.g.cs
+C:\Users\fpegios92\Documents\Visual Studio 2015\Projects\MyWallet\MyWallet\obj\Debug\GetWindow.baml
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\bin\Debug\MyWallet.exe.config
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\bin\Debug\MyWallet.exe
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\bin\Debug\MyWallet.pdb
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\EditWindow.g.cs
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\GetWindow.g.cs
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\PayWindow.g.cs
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\App.g.cs
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet_MarkupCompile.cache
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet_MarkupCompile.lref
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\EditWindow.baml
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\GetWindow.baml
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MainWindow.baml
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\PayWindow.baml
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet.g.resources
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet.Properties.Resources.resources
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet.exe
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet.pdb
+C:\Users\Administrator\Documents\fpegios\MyWallet\MyWallet\obj\Debug\MyWallet.csprojResolveAssemblyReference.cache

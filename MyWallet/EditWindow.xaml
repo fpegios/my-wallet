@@ -1,0 +1,66 @@
+﻿<Window x:Class="MyWallet.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyWallet"
+        mc:Ignorable="d"
+        Title="EditWindow" Height="600" Width="940" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="160"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <DockPanel Name="transDock" LastChildFill="False" Margin="10,0" >
+                <StackPanel Margin="25,30,25,0" Width="900">
+                    <Label Content="Επεξεργασία Συναλλαγής" HorizontalAlignment="Center" FontSize="42" FontWeight="Bold" FontFamily="Calibri"></Label>
+                    <WrapPanel Margin="0,30,0,0">
+                        <TextBlock Text="" FontSize="36" Width="260" FontFamily="Calibri"/>
+                        <TextBlock Text="Παλιά Τιμή" Width="269" FontFamily="Calibri" FontSize="36" TextAlignment="Center" TextDecorations="Underline"  />
+                        <TextBlock Text="Νέα Τιμή" Width="269" FontFamily="Calibri" FontSize="36" TextAlignment="Center" TextDecorations="Underline"  />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="36" Width="260" FontFamily="Calibri"><Run Text="Τύπος :"/></TextBlock>
+                        <TextBox x:Name="transTypeOld" Width="269" FontFamily="Calibri" FontSize="36" IsReadOnly="True" />
+                        <TextBox x:Name="transTypeNew" Width="269" FontFamily="Calibri" FontSize="36" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="36" Width="260" FontFamily="Calibri"><Run Text="Ημερομηνία :"/></TextBlock>
+                        <TextBox x:Name="transDateOld" Width="269" FontFamily="Calibri" FontSize="36" Height="46" IsReadOnly="True" />
+                        <DatePicker x:Name="transDateNew" Margin="10,0,0,0" Width="269" FontFamily="Calibri" FontSize="36" FirstDayOfWeek="Monday" Panel.ZIndex="-2" HorizontalContentAlignment="Left" HorizontalAlignment="Center" Height="46"/>
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="36" Width="260" FontFamily="Calibri"><Run Text="Ποσό :"/></TextBlock>
+                        <TextBox x:Name="transMoneyOld" Width="269" FontFamily="Calibri" FontSize="36" IsReadOnly="True" />
+                        <TextBox x:Name="transMoneyNew" Width="269" FontFamily="Calibri" FontSize="36" PreviewTextInput="NumberValidationTextBox" />
+                    </WrapPanel>
+                    <WrapPanel>
+                        <TextBlock FontSize="36" Width="260" FontFamily="Calibri"><Run Text="Πληροφορίες :"/></TextBlock>
+                        <TextBox Name="transDetailsOld" TextWrapping="Wrap" FontFamily="Calibri" FontSize="36" IsReadOnly="True" Width="269" />
+                        <TextBox Name="transDetailsNew" TextWrapping="Wrap" Width="269" FontFamily="Calibri" FontSize="36" />
+                    </WrapPanel>
+                    <WrapPanel/>
+                    <WrapPanel Margin="235,30,0,0" HorizontalAlignment="Center" Height="59">
+                        <Button x:Name="btnCancel" Content="Ακύρωση" FontSize="25" Width="180" Height="45" Margin="5" Background="#0F243E" Foreground="#E97C30" FontWeight="Bold" FontFamily="Calibri" Click="btnCancel_Click" />
+                        <Button x:Name="btnDelete" Content="Διαγραφή" FontSize="25" Background="#E97C30" Foreground="#0F243E" FontWeight="Bold" Width="180" Height="45" Margin="5" FontFamily="Calibri" Click="btnDelete_Click"  />
+                        <Button x:Name="btnUpdate" Content="Ενημέρωση" FontSize="25" Background="#E97C30" Foreground="#0F243E" FontWeight="Bold" Width="180" Height="45" Margin="5" FontFamily="Calibri" Click="btnUpdate_Click"  />
+                    </WrapPanel>
+                </StackPanel>
+            </DockPanel>
+        </ScrollViewer>
+
+        
+
+    </Grid>
+</Window>

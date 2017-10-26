@@ -1,0 +1,54 @@
+﻿<Window x:Class="MyWallet.PayWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyWallet"
+        mc:Ignorable="d"
+        Title="PayWindow" Height="540" Width="940" WindowStartupLocation="CenterScreen">
+
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="160"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Width" Value="250"/>
+            <Setter Property="Margin" Value="10"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+
+
+        <DockPanel Name="transDock" LastChildFill="False" Margin="10,0" >
+            <StackPanel Margin="25,30,25,0" Width="900">
+                <Label Content="Καταχώρηση Νέας Πληρωμής" HorizontalAlignment="Center" FontSize="42" FontWeight="Bold" FontFamily="Calibri"></Label>
+                <WrapPanel Margin="0,30,0,0">
+                    <TextBlock Text="Id Συναλλαγής : " FontSize="36" Width="260" FontFamily="Calibri"/>
+                    <TextBox x:Name="transId" Width="560" FontFamily="Calibri" FontSize="36" IsReadOnly="True" />
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock FontSize="36" Width="270" FontFamily="Calibri"><Run Text="Ημερομηνία :"/></TextBlock>
+                    <DatePicker x:Name="transDate" Width="560" FontFamily="Calibri" FontSize="36" SelectedDateChanged="transDate_SelectedDateChanged" FirstDayOfWeek="Monday" Panel.ZIndex="-2" Height="46"/>
+                    <!-- <TextBox x:Name="transDate" Width="560" FontFamily="Calibri" FontSize="36" />-->
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock FontSize="36" Width="260" FontFamily="Calibri"><Run Text="Ποσό :"/></TextBlock>
+                    <TextBox x:Name="transMoney" Width="560" FontFamily="Calibri" FontSize="36" PreviewTextInput="NumberValidationTextBox" />
+                </WrapPanel>
+                <WrapPanel>
+                    <TextBlock FontSize="36" Width="260" FontFamily="Calibri"><Run Text="Πληροφορίες :"/></TextBlock>
+                    <TextBox Name="transDetails" Width="560" FontFamily="Calibri" FontSize="36" />
+                </WrapPanel>
+                <WrapPanel/>
+                <WrapPanel Margin="430,30,0,0" HorizontalAlignment="Center" Height="59">
+                    <Button x:Name="btnCancel" Content="Ακύρωση" FontSize="25" Width="180" Height="45" Margin="5" Background="#0F243E" Foreground="#E97C30" FontWeight="Bold" FontFamily="Calibri" Click="btnCancel_Click" />
+                    <Button x:Name="btnSubmit" Content="Καταχώρηση" FontSize="25" Background="#E97C30" Foreground="#0F243E" FontWeight="Bold" Width="180" Height="45" Margin="5" FontFamily="Calibri" Click="btnSubmit_Click"  />
+                </WrapPanel>
+            </StackPanel>
+        </DockPanel>
+
+    </Grid>
+</Window>
